@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="runner.RunTest" time="183.811" errors="1" skipped="7">
+<testsuite tests="8" failures="0" name="runner.RunTest" time="171.675" errors="1" skipped="7">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
@@ -65,13 +65,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: " name="Scenario: " time="22.868">
+  <testcase classname="Scenario: " name="Scenario: " time="21.379">
     <error message="An unknown server-side error occurred while processing the command. Original error: Could not find adb Please set the ANDROID_HOME environment variable with the Android SDK root directory path. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2.00 seconds
+Command duration or timeout: 519 milliseconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;DESKTOP-2T87SJ5&apos;, ip: &apos;192.168.52.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
 Driver info: io.appium.java_client.android.AndroidDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find adb Please set the ANDROID_HOME environment variable with the Android SDK root directory path. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2.00 seconds
+Command duration or timeout: 519 milliseconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;DESKTOP-2T87SJ5&apos;, ip: &apos;192.168.52.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
@@ -139,16 +139,16 @@ Driver info: io.appium.java_client.android.AndroidDriver
 </error>
     <system-out>@Smoke
 Feature: To smoke test functionalities of app
-2018-01-30 21:55:56 [stepDefinition.AttachHooks] INFO :: Inside set up method of before hook
+2018-01-30 23:41:33 [stepDefinition.AttachHooks] INFO :: Inside set up method of before hook
 
 SERVER STARTED
 </system-out>
   </testcase>
-  <testcase classname="Scenario: " name="Given User validates the splash screen open for five sec" time="22.991">
+  <testcase classname="Scenario: " name="Given User validates the splash screen open for five sec" time="21.47">
     <skipped/>
     <system-out>&amp;#27;[31mFailure in before hook:&amp;#27;[0m&amp;#27;[31mAttachHooks.setUp(Scenario)&amp;#27;[0m
 &amp;#27;[31mMessage: &amp;#27;[0m&amp;#27;[31morg.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find adb Please set the ANDROID_HOME environment variable with the Android SDK root directory path. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2.00 seconds
+Command duration or timeout: 519 milliseconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;DESKTOP-2T87SJ5&apos;, ip: &apos;192.168.52.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
@@ -215,7 +215,7 @@ Driver info: io.appium.java_client.android.AndroidDriver
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 &amp;#27;[0m
       &amp;#27;[31morg.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find adb Please set the ANDROID_HOME environment variable with the Android SDK root directory path. (WARNING: The server did not provide any stacktrace information)
-      Command duration or timeout: 2.00 seconds
+      Command duration or timeout: 519 milliseconds
       Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
       System info: host: &apos;DESKTOP-2T87SJ5&apos;, ip: &apos;192.168.52.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
       Driver info: io.appium.java_client.android.AndroidDriver
@@ -283,22 +283,22 @@ Driver info: io.appium.java_client.android.AndroidDriver
       &amp;#27;[0m
 </system-out>
   </testcase>
-  <testcase classname="Scenario: " name="Then User validates &quot;List&quot; screen" time="22.992">
+  <testcase classname="Scenario: " name="Then User validates &quot;List&quot; screen" time="21.471">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: " name="And click on any data" time="22.992">
+  <testcase classname="Scenario: " name="And click on any data" time="21.471">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: " name="And User validates &quot;Details&quot; screen" time="22.992">
+  <testcase classname="Scenario: " name="And User validates &quot;Details&quot; screen" time="21.471">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: " name="And Image should load with detail description available on details screen" time="22.992">
+  <testcase classname="Scenario: " name="And Image should load with detail description available on details screen" time="21.471">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: " name="And User click on back button" time="22.992">
+  <testcase classname="Scenario: " name="And User click on back button" time="21.471">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: " name="And user Scroll down &amp; click on last item of list" time="22.992">
+  <testcase classname="Scenario: " name="And user Scroll down &amp; click on last item of list" time="21.471">
     <skipped/>
   </testcase>
 </testsuite>

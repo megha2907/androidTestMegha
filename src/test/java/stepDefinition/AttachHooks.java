@@ -17,9 +17,9 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.skilrock.utils.CommonFunctionLibrary;
-import com.skilrock.utils.ConfigManager;
-import com.skilrock.utils.DriverFactory;
+import com.utils.CommonFunctionLibrary;
+import com.utils.ConfigManager;
+import com.utils.DriverFactory;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.After;

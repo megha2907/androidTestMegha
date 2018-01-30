@@ -1,5 +1,5 @@
 D:\DemoAppAutomation\src\main\java\com\pages\HomePage.java
 D:\DemoAppAutomation\src\main\java\com\demo\common\BasePage.java
-D:\DemoAppAutomation\src\main\java\com\skilrock\utils\ConfigManager.java
-D:\DemoAppAutomation\src\main\java\com\skilrock\utils\DriverFactory.java
-D:\DemoAppAutomation\src\main\java\com\skilrock\utils\CommonFunctionLibrary.java
+D:\DemoAppAutomation\src\main\java\com\utils\CommonFunctionLibrary.java
+D:\DemoAppAutomation\src\main\java\com\utils\DriverFactory.java
+D:\DemoAppAutomation\src\main\java\com\utils\ConfigManager.java

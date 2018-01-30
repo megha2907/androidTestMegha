@@ -1,4 +1,4 @@
-package com.skilrock.utils;
+package com.utils;
 
 import java.util.ArrayList;
 import java.util.List;

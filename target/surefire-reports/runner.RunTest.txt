@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: runner.RunTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 1, Skipped: 7, Time elapsed: 23.559 sec <<< FAILURE!
-Scenario:   Time elapsed: 22.868 sec  <<< ERROR!
+Tests run: 8, Failures: 0, Errors: 1, Skipped: 7, Time elapsed: 21.893 sec <<< FAILURE!
+Scenario:   Time elapsed: 21.379 sec  <<< ERROR!
 org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find adb Please set the ANDROID_HOME environment variable with the Android SDK root directory path. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2.00 seconds
+Command duration or timeout: 519 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'DESKTOP-2T87SJ5', ip: '192.168.52.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
 Driver info: io.appium.java_client.android.AndroidDriver
